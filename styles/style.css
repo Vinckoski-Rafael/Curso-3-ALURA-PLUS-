@@ -10,6 +10,7 @@
     --color-white:#ffffff;
     --color-grey:#c0c0c0;
     --color-blue:#167bf7;
+    --color-blue-hover:#64a7f8;
     --color-black:#00030c;
     --font-inter:'Inter', sans-serif;
 
@@ -59,7 +60,11 @@ body{
     padding: 1em;
     display: block;
     margin-bottom: 1em;
+}
 
+.container__botao:hover{
+    background-color: var(--color-blue-hover);
+    color: var(--color-black);
 }
 
 .botao__secundario{
@@ -103,6 +108,7 @@ body{
     margin-top: 1em;
 }
 
+
 /*Section 4 -dispositivos*/
 
 .dispositivos{
@@ -127,4 +133,37 @@ body{
     font-size: 2rem;
     font-weight: 700;
 
+}
+
+/*Section 5 -Footer */
+
+.rodape{
+    text-align: center;
+}
+
+.rodape__imagem{
+    margin: 5em 3em;
+}
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 1rem;
+    margin-bottom: 2em;
+}
+
+.rodape__lista a{
+    text-decoration: none;
+    color: var(--color-white);
+    margin-bottom: 1em ;
+}
+
+.dispositivos__paragrafo {
+    font-size: 0.87rem;
+    color: var(--color-grey);
+    margin-bottom: 1em;    
+}
+
+.rodape__lista a:hover{
+    color: var(--color-grey);
 }
