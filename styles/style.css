@@ -103,4 +103,28 @@ body{
     margin-top: 1em;
 }
 
-/*Section 3* / 
+/*Section 4 -dispositivos*/
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.dispositivos__lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;   
+    margin: 5em 0 ;
+}
+
+.dispositivos__lista__itens{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
