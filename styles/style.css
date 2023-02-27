@@ -72,3 +72,25 @@ body{
     display: block;
     font-size: 0.75rem;
 }
+
+/* Section 2 */
+
+.container-secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.container-secundario__imagem{
+    width: 80%;
+}
+
+.container-secundario__descricao__titulo{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+}
+
+.container-secundario__descricao__paragrafo{
+    color: var(--color-grey);
+}
+
