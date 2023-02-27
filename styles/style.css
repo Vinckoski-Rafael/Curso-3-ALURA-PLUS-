@@ -94,3 +94,13 @@ body{
     color: var(--color-grey);
 }
 
+.container-secundario__descricao{
+    padding: 2em;
+}
+
+.container-secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+/*Section 3* / 
